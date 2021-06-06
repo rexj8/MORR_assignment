@@ -6,6 +6,7 @@ class Navbar extends React.Component{
         return (
             <div className="navbar">
                 <h1>DEMO Streaming</h1>
+                <a href="#">Log In</a>
             </div>
         )
     }

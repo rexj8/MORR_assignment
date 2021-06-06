@@ -8,5 +8,12 @@
 }
 
 h1{
+    margin-left:5%;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:white;
+    position: absolute;
     
 }

@@ -1,4 +1,4 @@
-import './Components/Logo.js'
+import Logo from './Components/Logo.js'
 import './App.css';
 
 function App() {

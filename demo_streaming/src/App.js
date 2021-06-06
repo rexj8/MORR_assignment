@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Navbar name="Titles"/>
       <Cards name="Series"/>
-      {/* <Cards name="Movies"/> */}
+      <Cards name="Movies"/>
     </div>
   );
 }

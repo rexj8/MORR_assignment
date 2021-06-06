@@ -13,6 +13,7 @@ class Cards extends React.Component{
                     <div className="card">
                         <h1>{this.props.name}</h1>
                     </div>
+                    <div className="card-title">Popular {this.props.name}</div>
                 </a>
             </>
         )

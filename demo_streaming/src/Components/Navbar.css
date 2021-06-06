@@ -1,0 +1,12 @@
+.navbar{
+    background-image: linear-gradient(rgb(0, 89, 255) , rgb(29, 29, 255) );
+    height:auto;
+    width:100%;
+    position:absolute;
+    top:0px;
+    box-shadow: 6px 2px 12px 0px;
+}
+
+h1{
+    
+}

@@ -1,10 +1,13 @@
 import React from "react";
+import './Navbar.css'
 
 class Navbar extends React.Component{
     render(){
-        return 
-        <div>
-            
-        </div>
+        return (
+            <div className="navbar">
+                <h1>DEMO Streaming</h1>
+            </div>
+        )
     }
 }
+export default Navbar 

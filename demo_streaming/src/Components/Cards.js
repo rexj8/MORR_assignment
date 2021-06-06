@@ -1,4 +1,5 @@
 import React from "react";
+// import './Cards.css'
 
 class Cards extends React.Component{
     constructor(props){
@@ -8,8 +9,14 @@ class Cards extends React.Component{
     render(){
         return(
             <>
-                
+                <a href="#" className="card-link">
+                    <div className="card">
+                        <h1>{this.props.name}</h1>
+                    </div>
+                </a>
             </>
         )
     }
 }
+
+export default Cards

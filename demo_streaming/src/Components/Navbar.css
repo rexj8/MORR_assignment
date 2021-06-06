@@ -1,6 +1,6 @@
 .navbar{
     background-image: linear-gradient(rgb(0, 89, 255) , rgb(29, 29, 255) );
-    height:auto;
+    height:2.7rem;
     width:100%;
     position:absolute;
     top:0px;
@@ -8,12 +8,15 @@
 }
 
 h1{
+    position: absolute;
+    top:-7px;
     margin-left:5%;
     display: inline;
 }
 a{
+    font-size: 13px;
     text-decoration: none;
     color:white;
     position: absolute;
-    
+    right:15%;
 }

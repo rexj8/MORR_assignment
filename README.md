@@ -24,15 +24,16 @@
 
 
 ### How did you decide on the technical and architectural choices used as part of your solution?
-    As React is one of the most versatile Front End Language that is capable of doing anything and the biggest part is 
-    it's speed of loading components in browser.
+    As React is one of the most versatile Front End Language that is capable of doing anything and the biggest 
+    part is it's speed of loading components in browser.
      
-    Use of these particular components is to make our code more readable and it will take less time in future to add more 
-    features in this web app because all components are already arranged in well defined folders that helps to uderstand 
-    the working of components. I had a thought of developing this Web App that how to link all the components I have used in this. 
-    How to fetch data from give JSON by using of axios and using of loading and error handling in the same. Differnt Screens,
-    filtering data, linking differnet screens with react routers and many more. These all components and routings are 
-    fullfilling the need that has mentioned in the assignment. 
+    Use of these particular components is to make our code more readable and it will take less time in future 
+    to add more features in this web app because all components are already arranged in well defined folders 
+    that helps to uderstand the working of components. I had a thought of developing this Web App that how to
+    link all the components I have used in this. How to fetch data from give JSON by using of axios and using 
+    of loading and error handling in the same. Differnt Screens, filtering data, linking differnet screens 
+    with react routers and many more. These all components and routings are fullfilling the need that has 
+    mentioned in the assignment. 
 
 
 ### Are there any improvements you could make to your submission?

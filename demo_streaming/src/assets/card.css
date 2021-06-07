@@ -1,0 +1,10 @@
+.card
+{
+    width:min-content;
+    cursor: pointer;
+}
+.card img
+{
+    width: 180px;
+    height: 280px;
+}

@@ -1,0 +1,17 @@
+
+.card
+{
+    display: inline-grid;  
+    height: 9cm;
+    margin: 4px;
+}
+@media only screen and (max-width: 425px)
+{
+    .card
+{
+    display:block;  
+    height: 9cm;
+    margin: 30px;
+    margin-left: 80px;
+}
+}

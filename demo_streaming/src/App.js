@@ -1,22 +1,30 @@
-import Logo from './Components/Logo.js'
-import Navbar from './Components/Navbar.js'
-import Cards from './Components/Cards.js'
-import Movie from './Movies/Movie.js'
 import './App.css';
-import './Components/Navbar.css'
-import './Components/Cards.css'
-
-import {BrowserRouter as Router , Route , Switch} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './screens/Home';
+import Movie from './screens/Movie';
+import Series from './screens/Series';
+import Nav1 from "./assets/Nav1"
+import Footer from "./assets/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <Navbar name="Titles"/>
-      <Cards name="Series"/>
-      <Cards name="Movies"/>
-      {/* <FooterPage/> */}
-      {/* <Movie/> */}
-    </div>
+	<Router>
+		<Nav1/>
+    	<div className="App">
+			<Switch>
+				<Route path="/" exact>
+					<Home />	
+				</Route>
+				<Route path="/movies" exact>
+					<Movie type="movie"/>
+				</Route>
+				<Route path="/series" exact>
+					<Series type="series"/>
+				</Route>
+			</Switch>
+    	</div>
+		<Footer/>
+	</Router>
   );
 }
 

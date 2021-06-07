@@ -37,7 +37,8 @@
 
 
 ### Are there any improvements you could make to your submission?
-    By discussing and brainstorming we will definitely do improvements beacause there is always a scope of improvement
+    By discussing and brainstorming we will definitely do improvements beacause there is always a scope of 
+    improvement.
 
 ### What would you do differently if you were allocated more time?
     1. Create a user Login System

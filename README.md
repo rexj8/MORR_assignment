@@ -12,5 +12,5 @@
 ```npm start```
 
 
-![image](https://user-images.githubusercontent.com/44037733/120981505-5aa8d280-c795-11eb-9bc1-0211436fe62a.png)
+![image](https://user-images.githubusercontent.com/44037733/121042923-ca3cb300-c7d1-11eb-8a94-991ba3183a7e.png)
 

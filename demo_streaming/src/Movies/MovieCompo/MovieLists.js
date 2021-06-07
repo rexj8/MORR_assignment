@@ -12,7 +12,7 @@ class MovieLists extends React.Component{
         loading:true,
         showCard:null,
     };
-    const names = data.entries
+    // const names = data.entries
     
     getData(){
 
